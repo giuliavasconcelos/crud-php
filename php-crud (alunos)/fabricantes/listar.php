@@ -10,6 +10,7 @@
         edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fabricantes</title>
+        
 </head>
 <body>
 
@@ -17,7 +18,7 @@
         <h1>Fabricantes | SELECT</h1>
         <hr>
         <h2>Lendo e carregando todos os fabricantes.</h2>
-        
+
         <p><a href="inserir.php" style="color:blue;">Inserir um novo fabricante</a></p>
 
         <?php if(isset($_GET['status']) && $_GET['status'] == 'sucesso') {?> 
